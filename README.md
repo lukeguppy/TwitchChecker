@@ -59,7 +59,7 @@ To manually run the script, execute the following:
 python TwitchChecker.py
 ```
 
-### 6. Customization
+### 6. Customisation
 - Modify the `CHANNELS_TO_MONITOR` list in the script to include the names of the channels you want to monitor.
 - Change the `twitchLogoPath` variable to the path of your custom icon for the notification window.
 
