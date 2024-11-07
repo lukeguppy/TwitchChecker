@@ -3,6 +3,8 @@
 ## Overview
 TwitchChecker is a simple Python application that monitors specified Twitch channels and notifies the user when they go live. The notification window allows users to open the live stream or dismiss the notification.
 
+![alt text](example.png "Example")
+
 ## Prerequisites
 - Python 3.7 or higher
 - A registered Twitch Developer application to obtain `CLIENT_ID` and `CLIENT_SECRET`
