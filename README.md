@@ -68,4 +68,4 @@ python TwitchChecker.py
 ### Notes:
 - Make sure that the image file for the notification window (`twitchLogoPath`) is accessible and correctly set.
 - The script checks for live streams every 60 seconds by default. You can adjust this frequency by modifying the `await asyncio.sleep(60)` line in the code.
-```
+
