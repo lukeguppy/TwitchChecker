@@ -1,3 +1,9 @@
+"""
+Author: Luke Guppy
+Usage: Reference README (https://github.com/lukeguppy/TwitchChecker)
+Dependencies: twitchAPI, tkinter
+"""
+
 import asyncio
 import webbrowser
 import tkinter as tk
