@@ -16,6 +16,7 @@ CLIENT_SECRET = ''
 STREAMERS = ['Streamer1', 'Streamer2']
 active_streams = {}
 twitchLogoPath = r'C:\Users\lukew\Project\FinalReport\Images\twitch_logo.ico'
+update_interval = 60 #seconds
 
 notification_window = None
 
@@ -143,7 +144,7 @@ async def check_all_streams(twitch):
 
         tasks = [check_stream(twitch, streamer) for streamer in STREAMERS]
         await asyncio.gather(*tasks)
-        await asyncio.sleep(60)
+        await asyncio.sleep(update_interval)
 
 def run_asyncio_loop():
     asyncio.run(main())
