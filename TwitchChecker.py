@@ -15,7 +15,7 @@ CLIENT_ID = ''
 CLIENT_SECRET = ''
 STREAMERS = ['Streamer1', 'Streamer2']
 active_streams = {}
-twitchLogoPath = r'C:\Users\lukew\Project\FinalReport\Images\twitch_logo.ico'
+twitchLogoPath = r'path\to\twitch_logo.ico'
 update_interval = 60 #seconds
 
 notification_window = None
