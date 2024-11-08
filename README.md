@@ -16,9 +16,21 @@ TwitchChecker is a simple Python application that monitors specified Twitch chan
 - Create a new application and note the `CLIENT_ID` and `CLIENT_SECRET`.
 
 ### 2. Install Required Python Packages
-Run the following command to install the required Python packages:
+
+#### For Windows
+Run the following command:
 ```bash
-pip install twitchAPI asyncio tkinter
+pip install twitchAPI asyncio
+```
+
+#### For macOS
+Ensure tkinter is installed if it's not already available
+```bash
+brew install python-tk
+```
+Install the required Python packages
+```bash
+pip3 install twitchAPI asyncio
 ```
 
 ### 3. Configure the Application
