@@ -1,7 +1,7 @@
 # TwitchChecker
 
 ## Overview
-TwitchChecker is a simple Python application that monitors specified Twitch channels and notifies the user when they go live. The notification window allows users to open the live stream or dismiss the notification.
+TwitchChecker is a Python application that monitors specified Twitch channels and notifies the user when they go live. The notification window allows users to open the live stream or dismiss the notification.
 
 ![alt text](example.png "Example")
 
@@ -48,6 +48,7 @@ pip3 install twitchAPI asyncio
 start "" "path\to\pythonw.exe" "path\to\your\TwitchChecker.py"
 ```
 2. Place the `.bat` file in your startup folder (e.g., `%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup`).
+   - This can also be found through the run menu (Win + R) and entering 'shell:startup' 
 
 #### For macOS:
 1. Create a `.sh` file to run the script at startup:
